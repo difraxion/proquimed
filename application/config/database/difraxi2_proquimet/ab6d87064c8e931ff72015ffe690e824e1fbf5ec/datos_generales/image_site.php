@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"image_site","label":"Imagen del sitio","type":"image","type_options":{"size":"210","width":"300","height":"100","thumbnail":"small","img_width":"64","img_height":"64"},"validation":""}
