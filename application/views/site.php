@@ -30,7 +30,9 @@
    <meta property="og:url" content="{DIR}">
    <link rel="stylesheet" href="{DIR}css/normalize.css" type="text/css">
    <link rel="stylesheet" href="{DIR}css/main.css" type="text/css">
+   <link rel="stylesheet" href="{DIR}css/style.css" type="text/css">
    <link rel="shortcut icon" href="{DIR}img/{FAVICON}" type="image/ico">
+   <link href="js/ui/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
    <script src="{DIR}js/libs/CreateHTML5Elements.js"></script>
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
    <script src="{DIR}js/cycle/jquery.cycle.all.js"></script>
@@ -54,8 +56,16 @@
    		
    </nav>
    <div class="content">{CONTENT}</div>
-   <script src="{DIR}js/main.js"></script><script>// Google Analytics Code
+   <footer>
+    <?php require_once('footer.php');?>  
+   </footer>
+   <script src="{DIR}js/main.js"></script>
+   <script src="js/ui/jquery-1.10.2.js"></script>
+   <script src="js/ui/jquery-ui-1.10.4.custom.js"></script>
+   <script>// Google Analytics Code
       {ANALYTICS}
    </script>
 </body>
 </html>
+  
+   

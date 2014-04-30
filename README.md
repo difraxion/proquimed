@@ -1,4 +1,0 @@
-proquimed
-=========
-
-sitio proquimed

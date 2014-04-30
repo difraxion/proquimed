@@ -1,0 +1,245 @@
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* perspective  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+.persona_banner {
+  border-bottom: solid 7px #5aa09b;
+  margin: 0;
+  padding: 0; }
+  .persona_banner > img {
+    width: 100%;
+    min-width: 1024px; }
+
+.arti_format {
+  background-color: #5a9f9b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5a9f9b), to(#3b675e));
+  background-image: -webkit-linear-gradient(top, #5a9f9b, #3b675e);
+  background-image: -moz-linear-gradient(top, #5a9f9b, #3b675e);
+  background-image: -ms-linear-gradient(top, #5a9f9b, #3b675e);
+  background-image: -o-linear-gradient(top, #5a9f9b, #3b675e);
+  background-image: linear-gradient(top, #5a9f9b, #3b675e);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#5a9f9b', endColorStr='#3b675e');
+  color: white;
+  display: -webkit-box;
+  position: relative; }
+  .arti_format:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/persona/logo_check_der.png");
+    background-repeat: no-repeat;
+    background-position: right; }
+  .arti_format > figure {
+    position: absolute;
+    top: 12px;
+    left: 17px; }
+
+.titulos {
+  font-size: 2em;
+  margin: 2% 0 2% 15%; }
+
+.sub_titulo {
+  color: #5aa09b;
+  font-size: 1em; }
+
+.sangria_ul {
+  padding-left: 2%; }
+  .sangria_ul > li {
+    margin-left: 1%; }
+
+.text_article {
+  width: 92%;
+  margin: 5% auto;
+  color: #454545; }
+
+.contenedor_article {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border: solid 1px #d9d9d9;
+  overflow: hidden;
+  margin: 5% 0;
+  background: white; }
+
+.der_articulo {
+  width: 80%;
+  margin: 5% 0 0 13%;
+  display: inline-block; }
+  .der_articulo > div {
+    width: 31%;
+    display: inline-block;
+    color: #595959;
+    float: left;
+    height: 260px;
+    padding: 7px; }
+
+/*** circulo doble**/
+.circulo_doble {
+  font-size: .83em;
+  font-weight: 900;
+  margin-bottom: 14px; }
+  .circulo_doble > div {
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+    font-size: 1em;
+    margin-right: 15px; }
+    .circulo_doble > div span {
+      font-weight: bold;
+      color: white; }
+
+.azul {
+  color: #001d7e; }
+
+.rosa {
+  color: #e324ac; }
+
+.azulado {
+  color: #5aa09b; }
+
+.naranja {
+  color: #d26825; }
+  .naranja > span {
+    width: 52%;
+    display: inline-block; }
+
+.circuloazul {
+  background-image: url("../img/persona/circulo_fondo_azul.png");
+  background-repeat: no-repeat;
+  display: inline-block; }
+
+.circulorosa {
+  background-image: url("../img/persona/circulo_fondo_rosa.png");
+  background-repeat: no-repeat;
+  display: inline-block; }
+
+.circuloazulado {
+  background-image: url("../img/persona/circulo_fondo_azulado.png");
+  background-repeat: no-repeat;
+  display: inline-block; }
+
+.circulonaranja {
+  background-image: url("../img/persona/circulo_fondo_naranja.png");
+  background-repeat: no-repeat;
+  display: inline-block; }
+
+.art_centrado {
+  width: 80%;
+  margin: 0 auto;
+  display: block; }
+
+.caso_ex_int {
+  color: #595959;
+  border-bottom: solid 2px #5aa09b;
+  margin-bottom: 2%; }
+  .caso_ex_int > div:first-child {
+    height: 132px;
+    width: 20%;
+    display: inline-block;
+    float: left;
+    background-image: url("../img/empresa/circulo.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+  .caso_ex_int > div:last-child {
+    width: 75%;
+    display: inline-block;
+    padding-right: 5%; }
+
+.formul {
+  width: 90%;
+  margin: 10px auto;
+  color: #595959; }
+
+.izq {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  font-size: 14px; }
+  .izq > label {
+    width: 85px;
+    margin-right: 5px;
+    display: inline-block; }
+  .izq > input {
+    width: 70%;
+    margin: 8px 0;
+    margin: 12px 0; }
+
+.der {
+  width: 49%;
+  display: inline-block;
+  margin: 12px 0;
+  font-size: 14px; }
+  .der > span {
+    margin-right: 5px; }
+  .der > textarea {
+    width: 75%;
+    height: 110px;
+    resize: none; }
+  .der > input {
+    float: right;
+    margin: 6px 0;
+     }
+
+.buttom_enviar {
+  margin: 5px  0 0 162px;
+  border: 1px solid #eaeaea;
+  background: #5aa09b;
+  color: white; }

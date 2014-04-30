@@ -1,0 +1,23 @@
+[21-Apr-2014 13:07:19 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home3/difraxi2/public_html/sitios/proquimet/application/helpers/site_helper.php on line 27
+[21-Apr-2014 13:07:23 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home3/difraxi2/public_html/sitios/proquimet/application/helpers/site_helper.php on line 27
+[25-Apr-2014 12:32:24] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 13
+[25-Apr-2014 12:33:05] PHP Parse error:  syntax error, unexpected T_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 12
+[25-Apr-2014 12:33:26] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 13
+[25-Apr-2014 12:34:27] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:34:28] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:34:30] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:34:41] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:34:42] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:34:48] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:34:50] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:34:56] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:35:01] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 10
+[25-Apr-2014 12:36:24] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 13
+[25-Apr-2014 12:36:32] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 13
+[25-Apr-2014 12:36:38] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 13
+[25-Apr-2014 13:07:14] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130816001 bytes) in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 14
+[25-Apr-2014 13:07:18] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130816001 bytes) in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 14
+[25-Apr-2014 13:07:26] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130816001 bytes) in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 14
+[25-Apr-2014 13:07:30] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 130816001 bytes) in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 14
+[25-Apr-2014 13:28:34] PHP Parse error:  syntax error, unexpected T_ECHO in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 12
+[25-Apr-2014 13:31:04] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/difraxi2/public_html/sitios/proquimed/application/views/footer.php on line 12

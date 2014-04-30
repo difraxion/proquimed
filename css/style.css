@@ -1,0 +1,80 @@
+
+#contenido{width:1024px;  margin: 0 auto; position: relative; text-align: center;}
+.blanco{color:#fff;}
+.rosa{color:#b54d7b;}
+.rosa1{color:#e324ac;}
+.gris{color: #444544;}
+.verde{color: #5aa09b;}
+.circle{font-size: 1.0em; margin-top: 3px; display: block;position: relative;}
+.circulo_rosa{display: inline-block;color: #b54d7b; font-size: 1.0em;}
+.arial{font-family: 'Arial'}
+.mayusculas{text-transform: uppercase;}
+.minusculas{text-transform: capitalize;}
+.l{float: left;}
+.r{float: right;}
+/*conocenos*/
+.slide_conocenos{background:url('../img/conocenos/banner.jpg') 50% no-repeat;}
+.slide_conocenos{border-bottom: solid #5aa09b 10px;}
+ul.hoz li{display: inline-block; position: relative; margin: 0 auto; vertical-align: top;}
+ul.submenu_conocenos{position: relative;  margin: 0 auto; padding: 40px 20px; text-align: center;}
+ul.submenu_conocenos li{margin: 0px 20px}
+ul.submenu_conocenos li a{color: silver;}
+#info_historia{width: 963px; height: 20px; margin: 0 auto; border:solid #b8b8b8 1px; border-top: none;}
+#head_verde{background:url('../img/conocenos/ban.jpg')no-repeat; width: 965px; height: 134px;  margin: 0 auto;}
+.ttl{float: left;margin: 45px 0px 0px 100px;font-size: 2.3em; text-align: left;}
+.ttl2{font-size: 1.3em !important;}
+p.txt_general{text-align: justify; width:900px; margin: 40px auto;}
+.lista_historia{text-align: inherit;}
+ul.separacion{margin:50px 0px }
+.info_historia{width: 560px; margin:20px 0px 0px 200px !important;}
+ul.info_historia li{display: block; text-align: left;line-height:20px; margin-top: 20px;}
+.txt{color: #000;}
+.tlt_rosa{color:#b54d7b; font-size: 2.5em; font-weight: bold; font-family: 'Arial'}
+.fondo_blanco{background-color: #fff;}
+.separacion ul li img{margin-right: 20px; margin-left: 20px;}
+.margen_derecho{margin-left: 20px;}
+#imagen1_historia{ position: absolute; margin-right: -20px;}
+#imagen2_historia{ position: absolute; margin-right: -20px;}
+#imagen3_historia{ position: absolute; margin-right: -20px; padding-top: 50px;}
+#imagen4_historia{  position: absolute; padding-right: 0; padding-top: 126px; margin-left: -40px; }
+#imagen5_historia{  position: absolute; padding-right: 30px;margin-left: -50px; margin-top: 180px;}
+.margen1{margin-left: 20px; width: 390px; display: block;}
+.accordion{border:solid 1px #444544;-webkit-border-bottom-right-radius: 10px;-webkit-border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;-moz-border-radius-bottomleft: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px; border-top: none; background-color: #fff;}
+#contenido_filosofia{width: 1024px;}
+ul.lista_aliados{margin: 40px 0px; }
+ul.lista_aliados li{display: inline-block; position: relative; margin: 0 auto; vertical-align:top;}
+li.bloque1{width: 700px; text-align: left; padding-left: 105px;}
+li.bloque2{width: 700px; text-align: left; padding-left: 112px;}
+li.bloque3{width: 700px; text-align: left; padding-left: 30px;}
+.vision{margin-top: 20px;}
+#contenedor_reconocimientos{width: 1024px; position: relative;}
+.txt_chico{width: 600px;text-align: justify;padding: 0px 30px;}
+.img1{margin: 30px 25px;}
+.img2{margin: 70px 42px;}
+#contendor_confianza{border: solid red 1px; width: 1024px; height: 1320px;}
+.recuadro_chico{width:300px; text-align: justify; margin: 100px 0px 0px -400px; position: absolute; font-weight: bold;}
+.recuadro_chico1{width:300px; text-align: justify; margin: 490px 0px 0px -400px; position: absolute; font-weight: bold;}
+.recuadro_chico2{width:500px; text-align: center; margin: 830px 0px 0px -669px; position: absolute; font-weight: bold;}
+.plecaamarilla{width: 500px; height: 100px; background-color: #edcf72;
+-webkit-border-top-left-radius: 50px;
+-webkit-border-bottom-left-radius: 50px;
+-moz-border-radius-topleft: 50px;
+-moz-border-radius-bottomleft: 50px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+margin: 256px 0px 0px -672px;
+position: absolute;
+}
+.muestra{
+width: 360px !important;
+display: block;
+font-size: 1.3em;
+margin: 25px 0px 0px 20px;
+}
+.toma1{margin: 30px 200px;}
+.toma2{margin: -157px 0px 0px 523px;position: absolute; }
+.toma3{margin: 613px 0px 0px -660px;position: absolute; }
+.toma4{margin: 613px 0px 0px -405px;position: absolute; }
+.toma5{margin:50px 0px 0px -475px;position: absolute; }
+#bloque_aliados{background-color: #b34a7b; width: 100%;  height: 500px; margin: 800px 0px;}
+.titulo_confianza{font-size: 2.0em; color: #fff;}
